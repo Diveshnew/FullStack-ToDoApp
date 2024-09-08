@@ -110,4 +110,4 @@ Before you begin, ensure you have the following installed on your machine:
     npm run dev
     ```
     >[!Note]
-   > You should be in the backend directory to do this so `cd ../frontend/`
+   > You should be in the frontend directory to do this so `cd ../frontend/`
