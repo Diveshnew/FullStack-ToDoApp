@@ -1,9 +1,7 @@
-// mongodb+srv://firstUser:HSKSAYN6fPErCe6t@cluster0.zp3hkgj.mongodb.net/
-
 const mongoose = require('mongoose');
 
 mongoose.connect(
-  'mongodb+srv://firstUser:HSKSAYN6fPErCe6t@cluster0.zp3hkgj.mongodb.net/todos'
+  'your-connection-String/todos'
 );
 const todoSchema = mongoose.Schema({
   title: String,
